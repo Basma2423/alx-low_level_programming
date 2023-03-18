@@ -18,7 +18,7 @@ int main(void)
 		if (a <= 57)
 		{
 			putchar(44);
-			putchar(20);
+			putchar(' ');
 		}
 	}
 	putchar('\n');
