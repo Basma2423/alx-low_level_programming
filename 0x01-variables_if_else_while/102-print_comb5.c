@@ -3,7 +3,7 @@
 
 /**
  * main - main function
- * 
+ *
  * Description: does some cooooool stuff
  *
  * Return: 0 as usuaaaaaal
@@ -11,7 +11,7 @@
 int main(void)
 {
 	int p, q;
-	
+
 	for (p = 0; p <= 98; p++)
 	{
 	for (q = p + 1; q <= 99; q++)
