@@ -14,11 +14,13 @@ int main(void)
 
 	for (a = 48; a <= 57; a++)
 	{
-		for (b = 48; b <= 56; b++)
+		for (b = 48; b <= 57; b++)
 		{
+			if(a == b && a == 57)
+				continue;
 			for (c = a; c <= 57; c++)
 			{
-				for(d = b + 1; d <= 57; d++)
+				for( d = b + 1; d <= 57; d++)
 				{
 
 					if (a != c || b != d)
