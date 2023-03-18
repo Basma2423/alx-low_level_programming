@@ -1,47 +1,32 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
- * main - this is the main function
+ * main - main function
+ * 
+ * Description: does some cooooool stuff
  *
- * Description: prints single numbers
- *
- * Return: 0
+ * Return: 0 as usuaaaaaal
  */
 int main(void)
 {
-	int a, b, c, d;
-
-	for (a = 48; a <= 57; a++)
+	int p, q;
+	
+	for (p = 0; p <= 98; p++)
 	{
-		for (b = 48; b <= 57; b++)
-		{
-			if(a == b && a == 57)
-				continue;
-			for (c = a; c <= 57; c++)
-			{
-				for( d = b + 1; d <= 57; d++)
-				{
-
-					if (a != c || b != d)
-					{
-						putchar(a);
-						putchar(b);
-						putchar(' ');
-						putchar(c);
-						putchar(d);
-						if (a != 57 || b != 56 || c != 57 || d != 57)
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
-			}
-		}
+	for (q = p + 1; q <= 99; q++)
+	{
+	putchar((p / 10) + '0');
+	putchar((p % 10) + '0');
+	putchar(' ');
+	putchar((q / 10) + '0');
+	putchar((q % 10) + '0');
+	if (p == 98 && q == 99)
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
-
 	return (0);
-
 }
