@@ -16,10 +16,11 @@ int main(void)
 	{
 		for (b = 48; b <= 56; b++)
 		{
-			for (c = a; c <= 57; c++)
+			for (c = 48; c <= 57; c++)
 			{
-				for (d = b + 1; d <= 57; d++)
+				for(d = 48; d <= 57; d++)
 				{
+
 					if (a != c || b != d)
 					{
 						putchar(a);
@@ -27,28 +28,11 @@ int main(void)
 						putchar(' ');
 						putchar(c);
 						putchar(d);
-						if (a == 57 && b ==56)
-						{
-							if (c == a && c == d)
-							{
-
-							}
-
-							else
-							{
-							
-								putchar(',');
-	                                                        putchar(' ');
-
-							}
-							
-						}
-						else
+						if (a != 57 || b != 56 || c != 57 || d != 57)
 						{
 							putchar(',');
-                                                        putchar(' ');
+							putchar(' ');
 						}
-						
 					}
 				}
 			}
