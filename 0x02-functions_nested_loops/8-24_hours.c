@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer: time is lovely
+ * jack_bauer - time is lovely
  *
  * Description: prints time
  *
