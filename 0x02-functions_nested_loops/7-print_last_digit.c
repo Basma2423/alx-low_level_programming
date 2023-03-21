@@ -2,13 +2,13 @@
 
 /**
  *
- * print_last_digit - pretty obvious
+ * print_last_digit - print last digit
  *
- * @num: parameter number
+ * @num: parameter printed
  *
- * Description: pretty obvious
+ * Description: print last digit
  *
- * Return: last digit int
+ * Return: last digit
  */
 int print_last_digit(int num)
 {
