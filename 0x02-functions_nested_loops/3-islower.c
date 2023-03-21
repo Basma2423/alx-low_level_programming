@@ -3,6 +3,8 @@
 /**
  * _islower: function say if the char is lowercase or not
  *
+ * @c: parameter to be printed
+ *
  * Description: as mentioned before
  *
  * Return: 1 if is lowercase, 0 otherwise
