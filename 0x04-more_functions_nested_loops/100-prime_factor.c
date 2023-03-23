@@ -2,7 +2,7 @@
 #include <math.h>
 
 /**
- * main - not obvious
+ * main - main function find and print blablabla
  *
  * return: 0 as usual
  */
@@ -13,15 +13,15 @@ int main(void)
 	long int i;
 
 	n = 612852475143;
-	max = 0;
+	max = -1;
 
 	while (n % 2 == 0)
 	{
 		max = 2;
-		n = n / 2;
+		n /= 2;
 	}
 
-	for ( i = 3; i <= sqrt(n); i = i + 2)
+	for (i = 3; i <= sqrt(n); i = i + 2)
 	{
 		while (n % i == 0)
 		{
