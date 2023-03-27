@@ -9,7 +9,7 @@ int main(void)
 {
     char *str;
 
-    str = "Asimov";
+    str = "Holberton!";
     print_rev(str);
     return (0);
 }
