@@ -7,7 +7,7 @@
  *
  * @src: 2nd string
  *
- * return: a string
+ * Return: a string of src + dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -25,5 +25,5 @@ char *_strcat(char *dest, char *src)
 	}
 	*dest = '\0';
 
-	return ptr;
+	return (ptr);
 }
