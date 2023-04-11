@@ -2,11 +2,12 @@
 #include <stdlib.h>
 #include "main.h"
 
-/** main - prints no of coins
+/**
+ * main - something
  *
- * @argv: arguments
+ * @argc: int
  *
- * @argc: no of arg
+ * @argv: chars
  *
  * Return: 0
  */
@@ -21,7 +22,6 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-      
 	num = atoi(argv[1]);
 
 	if (num >= 0)
