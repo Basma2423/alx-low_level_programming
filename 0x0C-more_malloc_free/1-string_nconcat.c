@@ -9,7 +9,7 @@
  *
  * @s2: second string
  *
- * n: the first n bytes of s2 that would be concatenated
+ * @n: the first n bytes of s2 that would be concatenated
  *
  * Return: a pointer points to a newly allcoated space in memory
  */
