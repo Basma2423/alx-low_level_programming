@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include <stdio.h>
 
 /**
  * main - main function
@@ -9,14 +9,6 @@
  */
 int main(void)
 {
-	char *filename = __FILE__;
-	int len = 0;
-
-	while (filename[len] != '\0')
-	{
-		_putchar(filename[len++]);
-	}
-	_putchar('\n');
-
+	printf("%s\n", __FILE__);
 	return (0);
 }
